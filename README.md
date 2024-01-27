@@ -3,13 +3,13 @@
 When installed with PASERIE/INSTALL will fail because of missing **GUIDANCE.TXT**
 
 ```
-PASERIE/INSTALL GIT_USER(AndreaRibuoli) PACKAGEN(FAILURE_1)
+PASERIE/INSTALL REPO_OWNER(AndreaRibuoli) REPOSITORY(FAILURE_1) 
 ```
 
 The problem can be identified using the option `VERBOSE('Y')`:
 
 ```
-PASERIE/INSTALL GIT_USER(AndreaRibuoli) PACKAGEN(FAILURE_1) VERBOSE('Y')
+PASERIE/INSTALL REPO_OWNER(AndreaRibuoli) REPOSITORY(FAILURE_1) VERBOSE('Y')
 ```
 
 A spool file will log the HTTP/1.1 error **404 Not Found**:
